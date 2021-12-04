@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MDZ-YT-m8g">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Daftar-->
+        <scene sceneID="Vaz-iZ-wfL">
+            <objects>
+                <viewController id="MDZ-YT-m8g" customClass="RegisterViewController" customModule="Testing_Skeleton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mfJ-s3-wCf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4UL-Hd-RM3">
+                                <rect key="frame" x="20" y="64" width="374" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="myR-zk-Hwi">
+                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="EB3-9m-N1M"/>
+                                            <constraint firstAttribute="width" constant="50" id="jK3-gN-a3C"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Akun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Gy-JP-jYk">
+                                        <rect key="frame" x="60" y="15" width="314" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iqf-d2-dOe">
+                                <rect key="frame" x="20" y="124" width="374" height="190"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="rakamin@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C4G-gO-WlJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kata Sandi" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zgb-I5-DWO">
+                                        <rect key="frame" x="0.0" y="70" width="374" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Konfirmasi Kata Sandi" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q4d-vE-ZZT">
+                                        <rect key="frame" x="0.0" y="140" width="374" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Up1-xW-Oe9">
+                                <rect key="frame" x="20" y="324" width="374" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gAY-ar-17N">
+                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dUF-Rn-QO9"/>
+                                            <constraint firstAttribute="width" constant="50" id="seI-Nd-bXy"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biodata" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYm-Jy-rdQ">
+                                        <rect key="frame" x="60" y="15" width="314" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="41G-Af-BDf">
+                                <rect key="frame" x="20" y="384" width="374" height="120"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nama" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9hM-c2-cye">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Alamat" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aOs-yi-hnA">
+                                        <rect key="frame" x="0.0" y="70" width="374" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lFd-Rd-ppI">
+                                <rect key="frame" x="20" y="514" width="374" height="100.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dna-dS-1u7">
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="100.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jenis Kelamin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPM-Qj-5JL">
+                                                <rect key="frame" x="0.0" y="0.0" width="177" height="45.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pilih" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b3t-ad-21T">
+                                                <rect key="frame" x="0.0" y="55.5" width="177" height="45"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-9L-4Pl">
+                                        <rect key="frame" x="197" y="0.0" width="177" height="100.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tanggal Lahir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUt-IO-nuN">
+                                                <rect key="frame" x="0.0" y="0.0" width="177" height="45.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pilih" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tXn-oL-lfc">
+                                                <rect key="frame" x="0.0" y="55.5" width="177" height="45"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUp-Ad-ZTG">
+                                <rect key="frame" x="20" y="775.5" width="374" height="61.5"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Daftar">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5ky-Gz-Jf7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iqf-d2-dOe" firstAttribute="leading" secondItem="5ky-Gz-Jf7" secondAttribute="leading" constant="20" id="0Zj-Su-6hg"/>
+                            <constraint firstItem="5ky-Gz-Jf7" firstAttribute="trailing" secondItem="41G-Af-BDf" secondAttribute="trailing" constant="20" id="24c-kJ-0l3"/>
+                            <constraint firstItem="iqf-d2-dOe" firstAttribute="top" secondItem="4UL-Hd-RM3" secondAttribute="bottom" constant="10" id="4vp-g6-65p"/>
+                            <constraint firstItem="5ky-Gz-Jf7" firstAttribute="trailing" secondItem="Up1-xW-Oe9" secondAttribute="trailing" constant="20" id="5KQ-d2-emv"/>
+                            <constraint firstItem="41G-Af-BDf" firstAttribute="leading" secondItem="5ky-Gz-Jf7" secondAttribute="leading" constant="20" id="5W3-IB-BXq"/>
+                            <constraint firstItem="lFd-Rd-ppI" firstAttribute="leading" secondItem="5ky-Gz-Jf7" secondAttribute="leading" constant="20" id="68y-S6-n0p"/>
+                            <constraint firstItem="lFd-Rd-ppI" firstAttribute="top" secondItem="41G-Af-BDf" secondAttribute="bottom" constant="10" id="6eP-dE-c3S"/>
+                            <constraint firstItem="41G-Af-BDf" firstAttribute="top" secondItem="Up1-xW-Oe9" secondAttribute="bottom" constant="10" id="7hV-C2-X3Q"/>
+                            <constraint firstItem="41G-Af-BDf" firstAttribute="height" secondItem="mfJ-s3-wCf" secondAttribute="height" multiplier="0.133929" id="EOW-zM-Kkz"/>
+                            <constraint firstItem="aUp-Ad-ZTG" firstAttribute="height" secondItem="mfJ-s3-wCf" secondAttribute="height" multiplier="0.0686384" id="Jdw-yx-FzN"/>
+                            <constraint firstItem="5ky-Gz-Jf7" firstAttribute="trailing" secondItem="lFd-Rd-ppI" secondAttribute="trailing" constant="20" id="LAN-ne-CrH"/>
+                            <constraint firstItem="5ky-Gz-Jf7" firstAttribute="trailing" secondItem="aUp-Ad-ZTG" secondAttribute="trailing" constant="20" id="Nj9-Pj-k73"/>
+                            <constraint firstItem="5ky-Gz-Jf7" firstAttribute="trailing" secondItem="4UL-Hd-RM3" secondAttribute="trailing" constant="20" id="PUc-fa-Td5"/>
+                            <constraint firstItem="5ky-Gz-Jf7" firstAttribute="bottom" secondItem="aUp-Ad-ZTG" secondAttribute="bottom" constant="25" id="T8h-Sc-R8C"/>
+                            <constraint firstItem="4UL-Hd-RM3" firstAttribute="leading" secondItem="5ky-Gz-Jf7" secondAttribute="leading" constant="20" id="VcJ-w8-eYf"/>
+                            <constraint firstItem="aUp-Ad-ZTG" firstAttribute="leading" secondItem="5ky-Gz-Jf7" secondAttribute="leading" constant="20" id="WB1-FN-183"/>
+                            <constraint firstItem="5ky-Gz-Jf7" firstAttribute="trailing" secondItem="iqf-d2-dOe" secondAttribute="trailing" constant="20" id="db9-eh-lFX"/>
+                            <constraint firstItem="Up1-xW-Oe9" firstAttribute="leading" secondItem="5ky-Gz-Jf7" secondAttribute="leading" constant="20" id="dyw-0X-vxe"/>
+                            <constraint firstItem="lFd-Rd-ppI" firstAttribute="height" secondItem="mfJ-s3-wCf" secondAttribute="height" multiplier="0.0898438" constant="20" id="fNk-RW-XeH"/>
+                            <constraint firstItem="4UL-Hd-RM3" firstAttribute="top" secondItem="5ky-Gz-Jf7" secondAttribute="top" constant="20" id="hfD-t0-dEM"/>
+                            <constraint firstItem="iqf-d2-dOe" firstAttribute="height" secondItem="mfJ-s3-wCf" secondAttribute="height" multiplier="0.212054" id="r1Q-hO-Hl5"/>
+                            <constraint firstItem="Up1-xW-Oe9" firstAttribute="top" secondItem="iqf-d2-dOe" secondAttribute="bottom" constant="10" id="xQV-nC-cZP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Daftar" id="Bek-81-QZL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gPY-hA-Jxc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1758" y="38"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

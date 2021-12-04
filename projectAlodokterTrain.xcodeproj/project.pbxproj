@@ -15,6 +15,7 @@
 		50C8BF812751E1930071644B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C8BF7F2751E1930071644B /* Main.storyboard */; };
 		50C8BF832751E1950071644B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C8BF822751E1950071644B /* Assets.xcassets */; };
 		50C8BF862751E1950071644B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C8BF842751E1950071644B /* LaunchScreen.storyboard */; };
+		9FDD61EB275B2423002CA6A9 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD61EA275B2423002CA6A9 /* Register.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		50C8BF822751E1950071644B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C8BF852751E1950071644B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C8BF872751E1950071644B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDD61EA275B2423002CA6A9 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				50C8BF792751E1930071644B /* AppDelegate.swift */,
 				50C8BF7B2751E1930071644B /* SceneDelegate.swift */,
 				50C8BF7D2751E1930071644B /* ViewController.swift */,
+				9FDD61EA275B2423002CA6A9 /* Register.storyboard */,
 				50C8BF7F2751E1930071644B /* Main.storyboard */,
 				50C8BF822751E1950071644B /* Assets.xcassets */,
 				50C8BF842751E1950071644B /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				50C8BF862751E1950071644B /* LaunchScreen.storyboard in Resources */,
 				50C8BF832751E1950071644B /* Assets.xcassets in Resources */,
 				50C8BF812751E1930071644B /* Main.storyboard in Resources */,
+				9FDD61EB275B2423002CA6A9 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
