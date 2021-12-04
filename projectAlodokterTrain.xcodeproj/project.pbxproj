@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5018E6A2275B26BD0004B7D2 /* Article.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5018E6A1275B26BD0004B7D2 /* Article.xib */; };
+		5018E6A5275B28F40004B7D2 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018E6A4275B28F40004B7D2 /* ArticleViewController.swift */; };
 		50C8BF7A2751E1930071644B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8BF792751E1930071644B /* AppDelegate.swift */; };
 		50C8BF7C2751E1930071644B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8BF7B2751E1930071644B /* SceneDelegate.swift */; };
 		50C8BF7E2751E1930071644B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8BF7D2751E1930071644B /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5018E6A1275B26BD0004B7D2 /* Article.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Article.xib; sourceTree = "<group>"; };
+		5018E6A4275B28F40004B7D2 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		50C8BF762751E1930071644B /* projectAlodokterTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectAlodokterTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C8BF792751E1930071644B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C8BF7B2751E1930071644B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5018E6A3275B26C70004B7D2 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				5018E6A1275B26BD0004B7D2 /* Article.xib */,
+				5018E6A4275B28F40004B7D2 /* ArticleViewController.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
 		50C8BF6D2751E1920071644B = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +76,7 @@
 				50C8BF822751E1950071644B /* Assets.xcassets */,
 				50C8BF842751E1950071644B /* LaunchScreen.storyboard */,
 				50C8BF872751E1950071644B /* Info.plist */,
+				5018E6A3275B26C70004B7D2 /* Article */,
 			);
 			path = projectAlodokterTrain;
 			sourceTree = "<group>";
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5018E6A2275B26BD0004B7D2 /* Article.xib in Resources */,
 				50C8BF862751E1950071644B /* LaunchScreen.storyboard in Resources */,
 				50C8BF832751E1950071644B /* Assets.xcassets in Resources */,
 				50C8BF812751E1930071644B /* Main.storyboard in Resources */,
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50C8BF7E2751E1930071644B /* ViewController.swift in Sources */,
+				5018E6A5275B28F40004B7D2 /* ArticleViewController.swift in Sources */,
 				50C8BF7A2751E1930071644B /* AppDelegate.swift in Sources */,
 				50C8BF7C2751E1930071644B /* SceneDelegate.swift in Sources */,
 			);
