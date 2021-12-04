@@ -11,6 +11,39 @@
         <!--View Controller-->
         <scene sceneID="wlj-ME-Obt">
             <objects>
+<<<<<<< HEAD
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="projectAlodokterTrain" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alodokter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxv-A5-GPQ">
+                                <rect key="frame" x="170" y="194" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldr-L8-HZf">
+                                <rect key="frame" x="177" y="325" width="60" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWM-Kb-SWk">
+                                <rect key="frame" x="173.5" y="386" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Article"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejK-q4-lPQ">
+                                <rect key="frame" x="172.5" y="447" width="69" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Doctor"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5X-0h-TYJ">
+                                <rect key="frame" x="168" y="508" width="78" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Register"/>
+                            </button>
+=======
                 <viewController id="zPD-TN-6Dk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQI-8W-Bte">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -124,14 +157,28 @@
                                     <constraint firstItem="MjG-pJ-9sk" firstAttribute="height" secondItem="au1-fN-BfC" secondAttribute="height" multiplier="0.0765306" id="LTG-SF-bYE"/>
                                 </constraints>
                             </stackView>
+>>>>>>> 79183b89175e45d3d0e62e62a0bf06425cfd3b3b
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yJB-pH-DMT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+<<<<<<< HEAD
+                            <constraint firstItem="A5X-0h-TYJ" firstAttribute="top" secondItem="ejK-q4-lPQ" secondAttribute="bottom" constant="30" id="0VL-fA-HVG"/>
+                            <constraint firstItem="ejK-q4-lPQ" firstAttribute="top" secondItem="PWM-Kb-SWk" secondAttribute="bottom" constant="30" id="1l4-P8-mNS"/>
+                            <constraint firstItem="PWM-Kb-SWk" firstAttribute="top" secondItem="Ldr-L8-HZf" secondAttribute="bottom" constant="30" id="4fF-0M-8M1"/>
+                            <constraint firstItem="Ldr-L8-HZf" firstAttribute="top" secondItem="cxv-A5-GPQ" secondAttribute="bottom" constant="110" id="5yv-fd-0hl"/>
+                            <constraint firstItem="Ldr-L8-HZf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cut-D4-kHg"/>
+                            <constraint firstItem="cxv-A5-GPQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Osd-E4-a7t"/>
+                            <constraint firstItem="A5X-0h-TYJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="R80-tz-Emj"/>
+                            <constraint firstItem="PWM-Kb-SWk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dfy-4U-clb"/>
+                            <constraint firstItem="cxv-A5-GPQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="ibd-Rn-G32"/>
+                            <constraint firstItem="ejK-q4-lPQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nv9-F7-tdU"/>
+=======
                             <constraint firstItem="yJB-pH-DMT" firstAttribute="trailing" secondItem="au1-fN-BfC" secondAttribute="trailing" constant="20" id="3wu-S4-EuX"/>
                             <constraint firstItem="yJB-pH-DMT" firstAttribute="bottom" secondItem="au1-fN-BfC" secondAttribute="bottom" id="5xp-JX-eHi"/>
                             <constraint firstItem="au1-fN-BfC" firstAttribute="leading" secondItem="yJB-pH-DMT" secondAttribute="leading" constant="20" id="OP5-0u-c2V"/>
                             <constraint firstItem="au1-fN-BfC" firstAttribute="top" secondItem="yJB-pH-DMT" secondAttribute="top" id="snW-z5-mVd"/>
+>>>>>>> 79183b89175e45d3d0e62e62a0bf06425cfd3b3b
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g8v-Dm-Aus">
